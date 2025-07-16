@@ -1,0 +1,86 @@
+
+ADVANCED OPTIMIZATION ANALYSIS REPORT
+====================================
+
+Analysis Overview:
+- Total Strategy-Program Combinations: 36
+- Successful Optimizations: 4 (11.1%)
+- Average Improvement: -38.76%
+- Best Result: +45.2% (control_flow_annotation on loop_sum)
+- Worst Result: -100.0% (source_plus_opcodes on loop_sum)
+
+STRATEGY CATEGORY PERFORMANCE:
+-----------------------------
+
+COMPRESSION:
+  Average Improvement: -56.3% ± 21.6%
+  Success Rate: 0.0%
+  Tests Conducted: 9.0
+  Average Final Efficiency: -51.7%
+
+ENCODING:
+  Average Improvement: -28.3% ± 23.4%
+  Success Rate: 11.1%
+  Tests Conducted: 9.0
+  Average Final Efficiency: -23.6%
+
+HYBRID:
+  Average Improvement: -59.9% ± 38.1%
+  Success Rate: 0.0%
+  Tests Conducted: 9.0
+  Average Final Efficiency: -55.2%
+
+SEMANTIC:
+  Average Improvement: -10.5% ± 35.6%
+  Success Rate: 33.3%
+  Tests Conducted: 9.0
+  Average Final Efficiency: -5.8%
+
+TOP 5 OPTIMIZATION STRATEGIES:
+------------------------------
+1. control_flow_annotation: +17.4% avg improvement (67% success rate)
+2. base64_encoding: -0.9% avg improvement (33% success rate)
+3. semantic_chunking: -21.0% avg improvement (0% success rate)
+4. register_abstraction: -28.0% avg improvement (33% success rate)
+5. token_aware_formatting: -30.9% avg improvement (0% success rate)
+
+LEAST EFFECTIVE STRATEGIES:
+---------------------------
+1. source_plus_opcodes: -100.0% avg improvement
+2. dictionary_compression: -78.3% avg improvement
+3. hex_compression: -58.0% avg improvement
+
+PROGRAM-SPECIFIC ANALYSIS:
+-------------------------
+factorial:
+  Baseline Efficiency: -2.2%
+  Average Additional Improvement: -31.1%
+  Best Additional Improvement: +20.0%
+  Potential Final Efficiency: 17.8%
+
+loop_sum:
+  Baseline Efficiency: -9.5%
+  Average Additional Improvement: -36.5%
+  Best Additional Improvement: +45.2%
+  Potential Final Efficiency: 35.7%
+
+simple_calc:
+  Baseline Efficiency: 25.8%
+  Average Additional Improvement: -48.7%
+  Best Additional Improvement: +0.0%
+  Potential Final Efficiency: 25.8%
+
+KEY INSIGHTS:
+============
+1. Most Effective Category: semantic
+2. Compression Strategies: -56.3% average improvement
+3. Hybrid Approaches: -59.9% average improvement
+4. Encoding Optimizations: -28.3% average improvement
+5. Semantic Enhancements: -10.5% average improvement
+
+RECOMMENDATIONS:
+===============
+⚠️  MIXED RESULTS: Only 11% of optimizations show improvement
+❌ NEGATIVE IMPACT: Average -38.8% degradation - reconsider approaches
+🎯 FOCUS AREA: Prioritize semantic strategies for best results
+🚀 BREAKTHROUGH POTENTIAL: Best result of 45.2% suggests major gains possible

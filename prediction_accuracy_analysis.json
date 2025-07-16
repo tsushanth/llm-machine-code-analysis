@@ -1,0 +1,32 @@
+{
+  "pure_source": {
+    "predicted_efficiency": 0.0,
+    "actual_efficiency": 0.0,
+    "efficiency_accuracy": 0.0,
+    "predicted_quality": 1.0,
+    "actual_quality": 1.0,
+    "quality_accuracy": 0.0,
+    "avg_cost": 0.00025633333333333335,
+    "sample_count": 3
+  },
+  "pure_opcodes": {
+    "predicted_efficiency": 12.8,
+    "actual_efficiency": -3.8759689922480565,
+    "efficiency_accuracy": 16.67596899224806,
+    "predicted_quality": 0.3,
+    "actual_quality": 0.38888888888888884,
+    "quality_accuracy": 0.08888888888888885,
+    "avg_cost": 0.00028933333333333334,
+    "sample_count": 3
+  },
+  "minimal_context": {
+    "predicted_efficiency": 36.9,
+    "actual_efficiency": 27.51937984496124,
+    "efficiency_accuracy": 9.38062015503876,
+    "predicted_quality": 0.8,
+    "actual_quality": 0.8666666666666666,
+    "quality_accuracy": 0.06666666666666654,
+    "avg_cost": 0.00022416666666666668,
+    "sample_count": 3
+  }
+}
