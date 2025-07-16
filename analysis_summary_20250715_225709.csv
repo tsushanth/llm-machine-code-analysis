@@ -1,0 +1,7 @@
+,,source_tokens,source_tokens,source_tokens,source_tokens,binary_savings_pct,binary_savings_pct,binary_savings_pct,binary_savings_pct,assembly_savings_pct,assembly_savings_pct,assembly_savings_pct,assembly_savings_pct,estimated_cost_source,estimated_cost_binary,estimated_cost_assembly
+,,mean,std,min,max,mean,std,min,max,mean,std,min,max,sum,sum,sum
+prompt_type,compilation_success,,,,,,,,,,,,,,,
+conversion,True,188.9333,73.6958,47,304,-15133.6939,10313.1216,-48044.6809,-7508.5526,-928.0975,402.159,-1809.2391,-404.902,0.535,10.7176,1.3581
+debugging,True,199.9333,73.6958,58,315,-13741.0239,8133.0554,-38932.7586,-7246.3492,-868.6504,387.2318,-1707.1795,-384.186,0.54,10.7226,1.3631
+explanation,True,191.9333,73.6958,50,307,-14715.1341,9621.7482,-45162.0,-7435.1792,-910.8035,397.8269,-1780.2139,-399.0338,0.5364,10.719,1.3594
+optimization,True,192.9333,73.6958,51,308,-14582.7898,9409.6692,-44276.4706,-7411.039,-905.2336,396.4335,-1770.7447,-397.1154,0.5368,10.7194,1.3599

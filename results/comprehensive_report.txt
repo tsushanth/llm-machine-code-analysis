@@ -1,0 +1,102 @@
+
+COMPREHENSIVE TOKEN COST ANALYSIS REPORT
+========================================
+
+Analysis Date: 2025-07-15 22:54:08
+Model: gpt-4
+Total Analyses: 60
+Unique Code Samples: 15
+Prompt Types: 4
+
+OVERALL STATISTICS:
+------------------
+Average Token Counts:
+- Source Code Prompts: 193.4 tokens
+- Binary Code Prompts: 22821.4 tokens  
+- Assembly Code Prompts: 2022.5 tokens
+
+Token Savings Summary:
+- Binary vs Source: -14543.2% average savings
+- Assembly vs Source: -903.2% average savings
+
+Best Case Scenarios:
+- Binary Savings: -7246.3%
+- Assembly Savings: -384.2%
+
+Worst Case Scenarios:
+- Binary Savings: -48044.7%
+- Assembly Savings: -1809.2%
+
+COST ANALYSIS:
+--------------
+Total Estimated Costs (for all 60 analyses):
+- Source Code Prompts: $2.1482
+- Binary Code Prompts: $42.8786
+- Assembly Code Prompts: $5.4405
+
+Potential Cost Savings:
+- Binary vs Source: $-40.7304 (-1896.0%)
+- Assembly vs Source: $-3.2923 (-153.3%)
+
+ANALYSIS BY PROMPT TYPE:
+-----------------------
+
+CONVERSION:
+- Average Source Tokens: 188.9
+- Binary Savings: -15133.7%
+- Assembly Savings: -928.1%
+- Cost Savings (Binary): $-10.1800
+- Cost Savings (Assembly): $-0.8200
+
+DEBUGGING:
+- Average Source Tokens: 199.9
+- Binary Savings: -13741.0%
+- Assembly Savings: -868.6%
+- Cost Savings (Binary): $-10.1800
+- Cost Savings (Assembly): $-0.8200
+
+EXPLANATION:
+- Average Source Tokens: 191.9
+- Binary Savings: -14715.1%
+- Assembly Savings: -910.8%
+- Cost Savings (Binary): $-10.1800
+- Cost Savings (Assembly): $-0.8200
+
+OPTIMIZATION:
+- Average Source Tokens: 192.9
+- Binary Savings: -14582.8%
+- Assembly Savings: -905.2%
+- Cost Savings (Binary): $-10.1800
+- Cost Savings (Assembly): $-0.8200
+
+TOP TOKEN SAVERS:
+----------------
+Binary Code (Top 5):
+        code_name  prompt_type  binary_savings_pct
+hash_table_simple    debugging        -7246.349206
+       quick_sort    debugging        -7369.902913
+hash_table_simple optimization        -7411.038961
+hash_table_simple  explanation        -7435.179153
+hash_table_simple   conversion        -7508.552632
+
+Assembly Code (Top 5):
+code_name  prompt_type  assembly_savings_pct
+    queue    debugging           -384.186047
+    stack    debugging           -391.707317
+    queue optimization           -397.115385
+    queue  explanation           -399.033816
+    queue   conversion           -404.901961
+
+IMPLICATIONS:
+------------
+1. Machine code representations can provide significant token savings
+2. The effectiveness varies by code complexity and prompt type
+3. Cost savings could be substantial for high-volume applications
+4. Assembly code may be more human-readable than hex but less token-efficient
+
+RECOMMENDATIONS:
+---------------
+1. Consider binary representation for simple, well-defined code tasks
+2. Assembly may be better for debugging and optimization tasks
+3. Cost-benefit analysis should include model performance on machine code
+4. Further research needed on model accuracy with machine code inputs

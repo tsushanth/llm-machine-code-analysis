@@ -1,0 +1,30 @@
+# Core LLM and tokenization libraries
+tiktoken>=0.5.0
+transformers>=4.30.0
+datasets>=2.10.0
+
+# Data analysis and manipulation
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Optional: Advanced analysis
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# Optional: Disassembly and binary analysis
+capstone>=5.0.0
+
+# Development and testing
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Documentation
+sphinx>=6.0.0
+sphinx-rtd-theme>=1.2.0
