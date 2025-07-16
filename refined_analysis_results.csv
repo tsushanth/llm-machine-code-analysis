@@ -1,7 +1,0 @@
-name,estimated_lines,source_tokens,source_chars,pure_opcode_tokens,pure_assembly_tokens,opcode_chars,assembly_chars,opcode_efficiency_pct,assembly_efficiency_pct,opcode_compression_ratio,assembly_compression_ratio,tokens_per_line,scale_category
-basic_calculator,50,198,691,0,0,0,0,100.0,100.0,0.0,0.0,3.96,Small
-simple_data_structures,120,343,1187,0,0,0,0,100.0,100.0,0.0,0.0,2.8583333333333334,Medium
-sorting_algorithms,250,772,2414,0,0,0,0,100.0,100.0,0.0,0.0,3.088,Medium
-binary_search_tree,300,771,2916,0,0,0,0,100.0,100.0,0.0,0.0,2.57,Large
-matrix_operations,400,890,2648,0,0,0,0,100.0,100.0,0.0,0.0,2.225,Large
-hash_table_complete,500,749,2919,0,0,0,0,100.0,100.0,0.0,0.0,1.498,Large
