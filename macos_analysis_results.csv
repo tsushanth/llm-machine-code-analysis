@@ -1,0 +1,6 @@
+name,estimated_lines,source_tokens,source_chars,opcode_tokens,assembly_tokens,opcode_chars,assembly_chars,opcode_efficiency_pct,assembly_efficiency_pct,scale_category
+hello_world,10,25,81,0,0,0,0,100.0,100.0,Small
+simple_math,20,88,249,0,0,0,0,100.0,100.0,Small
+loop_example,30,109,312,0,0,0,0,100.0,100.0,Small
+array_operations,60,312,985,0,0,0,0,100.0,100.0,Small
+string_functions,100,459,1467,0,0,0,0,100.0,100.0,Medium

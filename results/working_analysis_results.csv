@@ -1,0 +1,7 @@
+name,estimated_lines,source_tokens,opcode_tokens,assembly_tokens,opcode_efficiency_pct,assembly_efficiency_pct,opcode_chars,assembly_chars,scale_category
+tiny_program,5,16,3,27,81.25,-68.75,8,61,Small
+hello_world,10,25,9,244,64.0,-876.0,16,501,Small
+simple_math,20,86,30,456,65.11627906976744,-430.23255813953483,64,927,Small
+loop_example,40,102,25,372,75.49019607843137,-264.70588235294116,56,763,Small
+array_sorting,80,230,27,3671,88.26086956521739,-1496.0869565217392,56,7462,Medium
+string_processing,150,428,238,5675,44.39252336448598,-1225.9345794392523,456,11071,Large
